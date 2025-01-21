@@ -1,57 +1,53 @@
 xkb_symbols "custom" {
-    name[Group1] = "Custom Keyboard Layout";
+        name[Group1] = "Custom Keyboard Layout";
 
-    key <AE01> { [ 1, exclam, NoSymbol, NoSymbol ] }; // DIGIT ONE, EXCLAMATION MARK
-    key <AE02> { [ 2, percent, NoSymbol, NoSymbol ] }; // DIGIT TWO, PERCENT SIGN
-    key <AE03> { [ 3, ampersand, NoSymbol, NoSymbol ] }; // DIGIT THREE, AMPERSAND
-    key <AE04> { [ 4, asterisk, NoSymbol, NoSymbol ] }; // DIGIT FOUR, ASTERISK
-    key <AE05> { [ 5, bracketleft, NoSymbol, NoSymbol ] }; // DIGIT FIVE, LEFT SQUARE BRACKET
-    key <AE06> { [ 6, bracketright, NoSymbol, NoSymbol ] }; // DIGIT SIX, RIGHT SQUARE BRACKET
-    key <AE07> { [ 7, braceleft, NoSymbol, NoSymbol ] }; // DIGIT SEVEN, LEFT CURLY BRACKET
-    key <AE08> { [ 8, braceright, NoSymbol, NoSymbol ] }; // DIGIT EIGHT, RIGHT CURLY BRACKET
-    key <AE09> { [ 9, parenleft, NoSymbol, NoSymbol ] }; // DIGIT NINE, LEFT PARENTHESIS
-    key <AE10> { [ 0, parenright, NoSymbol, NoSymbol ] }; // DIGIT ZERO, RIGHT PARENTHESIS
-    key <AE11> { [ at, asciicircum, ssharp, NoSymbol ] }; // COMMERCIAL AT, CIRCUMFLEX ACCENT, SHARP S
-    key <AE12> { [ dollar, numbersign, NoSymbol, NoSymbol ] }; // DOLLAR SIGN, NUMBER SIGN
-
-    key <AD01> { [ q, Q, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Q, CAPITAL Q
-    key <AD02> { [ w, W, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER W, CAPITAL W
-    key <AD03> { [ e, E, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER E, CAPITAL E
-    key <AD04> { [ r, R, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER R, CAPITAL R
-    key <AD05> { [ t, T, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER T, CAPITAL T
-    key <AD06> { [ y, Y, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Y, CAPITAL Y
-    key <AD07> { [ u, U, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER U, CAPITAL U
-    key <AD08> { [ i, I, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER I, CAPITAL I
-    key <AD09> { [ o, O, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER O, CAPITAL O
-    key <AD10> { [ p, P, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER P, CAPITAL P
-    key <AD11> { [ colon, question, udiaeresis, Udiaeresis ] }; // COLON, QUESTION MARK, SMALL U DIAERESIS, CAPITAL U DIAERESIS
-    key <AD12> { [ slash, backslash, NoSymbol, NoSymbol ] }; // SOLIDUS, REVERSE SOLIDUS
-
-    key <AC01> { [ a, A, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER A, CAPITAL A
-    key <AC02> { [ s, S, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER S, CAPITAL S
-    key <AC03> { [ d, D, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER D, CAPITAL D
-    key <AC04> { [ f, F, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER F, CAPITAL F
-    key <AC05> { [ g, G, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER G, CAPITAL G
-    key <AC06> { [ h, H, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER H, CAPITAL H
-    key <AC07> { [ j, J, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER J, CAPITAL J
-    key <AC08> { [ k, K, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER K, CAPITAL K
-    key <AC09> { [ l, L, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER L, CAPITAL L
-    key <AC10> { [ underscore, semicolon, odiaeresis, Odiaeresis ] }; // UNDERSCORE, SEMICOLON, SMALL O DIAERESIS, CAPITAL O DIAERESIS
-    key <AC11> { [ quotedbl, apostrophe, adiaeresis, Adiaeresis ] }; // QUOTATION MARK, APOSTROPHE, SMALL A DIAERESIS, CAPITAL A DIAERESIS
-
-    key <TLDE> { [ equal, asciitilde, NoSymbol, NoSymbol ] }; // EQUALS SIGN, TILDE
-    key <BKSL> { [ bar, grave, NoSymbol, NoSymbol ] }; // VERTICAL LINE
-    key <AB01> { [ z, Z, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Z, CAPITAL Z
-    key <AB02> { [ x, X, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER X, CAPITAL X
-    key <AB03> { [ c, C, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER C, CAPITAL C
-    key <AB04> { [ v, V, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER V, CAPITAL V
-    key <AB05> { [ b, B, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER B, CAPITAL B
-    key <AB06> { [ n, N, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER N, CAPITAL N
-    key <AB07> { [ m, M, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER M, CAPITAL M
-    key <AB08> { [ comma, less, NoSymbol, NoSymbol ] }; // COMMA, LESS-THAN SIGN
-    key <AB09> { [ period, greater, NoSymbol, NoSymbol ] }; // FULL STOP, GREATER-THAN SIGN
-    key <AB10> { [ plus, minus, NoSymbol, NoSymbol ] }; // PLUS SIGN, HYPHEN-MINUS
-    key <SPCE> { [ space, space, NoSymbol, NoSymbol ] }; // SPACE
-    key <LSGT> { [ backslash, bar, NoSymbol, NoSymbol ] }; // REVERSE SOLIDUS, VERTICAL LINE
-    key <KPDL> { [ period, period, NoSymbol, NoSymbol ] }; // FULL STOP
+        key <AE01> { [ U0023, 1, NoSymbol, NoSymbol ] }; // NUMBER SIGN, DIGIT ONE
+        key <AE02> { [ U005f, 2, NoSymbol, NoSymbol ] }; // LOW LINE, DIGIT TWO
+        key <AE03> { [ U003d, 3, NoSymbol, NoSymbol ] }; // EQUALS SIGN, DIGIT THREE
+        key <AE04> { [ U002b, 4, NoSymbol, NoSymbol ] }; // PLUS SIGN, DIGIT FOUR
+        key <AE05> { [ U002d, 5, NoSymbol, NoSymbol ] }; // HYPHEN-MINUS, DIGIT FIVE
+        key <AE06> { [ U002a, U002f, NoSymbol, NoSymbol ] }; // ASTERISK, SOLIDUS
+        key <AE07> { [ U0026, U007c, NoSymbol, NoSymbol ] }; // AMPERSAND, VERTICAL LINE
+        key <AE08> { [ U007b, U007d, NoSymbol, NoSymbol ] }; // LEFT CURLY BRACKET, RIGHT CURLY BRACKET
+        key <AE09> { [ U0028, U0029, NoSymbol, NoSymbol ] }; // LEFT PARENTHESIS, RIGHT PARENTHESIS
+        key <AE10> { [ U005b, U005d, NoSymbol, NoSymbol ] }; // LEFT SQUARE BRACKET, RIGHT SQUARE BRACKET
+        key <AE11> { [ U0025, 6, NoSymbol, NoSymbol ] }; // PERCENT SIGN, DIGIT SIX
+        key <AE12> { [ U0024, 7, NoSymbol, NoSymbol ] }; // DOLLAR SIGN, DIGIT SEVEN
+        key <AD01> { [ q, Q, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Q, LATIN CAPITAL LETTER Q
+        key <AD02> { [ w, W, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER W, LATIN CAPITAL LETTER W
+        key <AD03> { [ e, E, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER E, LATIN CAPITAL LETTER E
+        key <AD04> { [ r, R, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER R, LATIN CAPITAL LETTER R
+        key <AD05> { [ t, T, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER T, LATIN CAPITAL LETTER T
+        key <AD06> { [ y, Y, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y
+        key <AD07> { [ u, U, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER U, LATIN CAPITAL LETTER U
+        key <AD08> { [ i, I, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER I, LATIN CAPITAL LETTER I
+        key <AD09> { [ o, O, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER O, LATIN CAPITAL LETTER O
+        key <AD10> { [ p, P, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER P, LATIN CAPITAL LETTER P
+        key <AD11> { [ U0027, U0022, NoSymbol, NoSymbol ] }; // APOSTROPHE, QUOTATION MARK
+        key <AD12> { [ U005e, 8, NoSymbol, NoSymbol ] }; // CIRCUMFLEX ACCENT, DIGIT EIGHT
+        key <AC01> { [ a, A, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER A, LATIN CAPITAL LETTER A
+        key <AC02> { [ s, S, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER S, LATIN CAPITAL LETTER S
+        key <AC03> { [ d, D, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER D, LATIN CAPITAL LETTER D
+        key <AC04> { [ f, F, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER F, LATIN CAPITAL LETTER F
+        key <AC05> { [ g, G, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER G, LATIN CAPITAL LETTER G
+        key <AC06> { [ h, H, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER H, LATIN CAPITAL LETTER H
+        key <AC07> { [ j, J, U00e4, U00c4 ] }; // LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, Ä
+        key <AC08> { [ k, K, U00f6, U00d6 ] }; // LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, Ö
+        key <AC09> { [ l, L, U00fc, U00dc ] }; // LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, Ü
+        key <AC10> { [ U003b, U003a, NoSymbol, NoSymbol ] }; // SEMICOLON, COLON
+        key <AC11> { [ U0060, U007e, NoSymbol, NoSymbol ] }; // GRAVE ACCENT, TILDE
+        key <TLDE> { [ U0040, 0, NoSymbol, NoSymbol ] }; // COMMERCIAL AT, DIGIT ZERO
+        key <BKSL> { [ U005c, 9, NoSymbol, NoSymbol ] }; // REVERSE SOLIDUS, DIGIT NINE
+        key <AB01> { [ z, Z, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER Z, LATIN CAPITAL LETTER Z
+        key <AB02> { [ x, X, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER X, LATIN CAPITAL LETTER X
+        key <AB03> { [ c, C, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER C, LATIN CAPITAL LETTER C
+        key <AB04> { [ v, V, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER V, LATIN CAPITAL LETTER V
+        key <AB05> { [ b, B, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER B, LATIN CAPITAL LETTER B
+        key <AB06> { [ n, N, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER N, LATIN CAPITAL LETTER N
+        key <AB07> { [ m, M, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER M, LATIN CAPITAL LETTER M
+        key <AB08> { [ U002c, U003c, NoSymbol, NoSymbol ] }; // COMMA, LESS-THAN SIGN
+        key <AB09> { [ U002e, U003e, NoSymbol, NoSymbol ] }; // FULL STOP, GREATER-THAN SIGN
+        key <AB10> { [ U0021, U003f, NoSymbol, NoSymbol ] }; // EXCLAMATION MARK, QUESTION MARK
+        key <SPCE> { [ U0020, U0020, NoSymbol, NoSymbol ] }; // SPACE
+        key <LSGT> { [ U005c, U007c, NoSymbol, NoSymbol ] }; // REVERSE SOLIDUS, VERTICAL LINE
 };
