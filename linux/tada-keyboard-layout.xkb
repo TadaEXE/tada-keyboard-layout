@@ -34,7 +34,7 @@ xkb_symbols "custom" {
         key <AC07> { [ j, J, U00e4, U00c4 ] }; // LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, Ä
         key <AC08> { [ k, K, U00f6, U00d6 ] }; // LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, Ö
         key <AC09> { [ l, L, U00fc, U00dc ] }; // LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, Ü
-        key <AC10> { [ U003b, U003a, NoSymbol, NoSymbol ] }; // SEMICOLON, COLON
+        key <AC10> { [ U003b, U003a, U223, NoSymbol ] }; // SEMICOLON, COLON
         key <AC11> { [ U0060, U007e, NoSymbol, NoSymbol ] }; // GRAVE ACCENT, TILDE
         key <TLDE> { [ U0040, 0, NoSymbol, NoSymbol ] }; // COMMERCIAL AT, DIGIT ZERO
         key <BKSL> { [ U005c, 9, NoSymbol, NoSymbol ] }; // REVERSE SOLIDUS, DIGIT NINE
